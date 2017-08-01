@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CSSTools/Classes/**/*'
-  
+s.source_files = 'CSSTools/Classes/**/*.{h,m}'
+
   # s.resource_bundles = {
   #   'CSSTools' => ['CSSTools/Assets/*.png']
   # }
