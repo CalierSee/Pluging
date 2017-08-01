@@ -1,0 +1,16 @@
+PODS:
+  - CSSTools (0.1.0)
+
+DEPENDENCIES:
+  - CSSTools (from `../`)
+
+EXTERNAL SOURCES:
+  CSSTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSSTools: 5e242ce1a2a36703ad4666a482c2ef67d2fa600d
+
+PODFILE CHECKSUM: f91c702fbf8a5812fc0ad2f528ddeeb67d9778ac
+
+COCOAPODS: 1.1.1

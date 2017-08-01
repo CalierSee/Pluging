@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CSSTools_Example' do
+  pod 'CSSTools', :path => '../'
+
+  target 'CSSTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

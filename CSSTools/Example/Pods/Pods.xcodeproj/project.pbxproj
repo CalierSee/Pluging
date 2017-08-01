@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053C2C14C1B5A756D2BAE125378DC0DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		29460FBBD57A862BAA80A30C4BCE9BFA /* CSSTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D2EF212244DD302B025B83E2E7208B /* CSSTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCD620CA6DF1B481FCE0D48606226F7 /* Pods-CSSTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE2726AE2FD17839B12252443172B5F /* Pods-CSSTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CCF862A15441ADD7F07B2CAB8DFF260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D8378E24A50B3ECF9225A666AAD8A8A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEF1E9B41627D2E8304B15888A841C /* ReplaceMe.m */; };
+		9FBC7D549E452575914F02402CA77406 /* Pods-CSSTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC784C5CEB1D2270303BA18E0A7149E /* Pods-CSSTools_Tests-dummy.m */; };
+		A0CDA2A66040903D3A8A4D65A9D64B51 /* CSSTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2938495655DA394ED31EF0B71A84C949 /* CSSTools-dummy.m */; };
+		A39BABBC452A51E749EB817FA3761E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A9E86A06922BF71B87FB69612AA25018 /* Pods-CSSTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B18BC64E059356BB5966C608D82BFF /* Pods-CSSTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E46507F9AC60C85A6F9D085BE6C58829 /* Pods-CSSTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2182F8DED168D1BB9EADD05148781A63 /* Pods-CSSTools_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		992EAC5418E59428886F5910A344189C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27B6CF43202C4F1BF17E182EC3732B2D;
+			remoteInfo = CSSTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FEF1E9B41627D2E8304B15888A841C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		100C9EC7319125F2F325FF4F2798628B /* Pods-CSSTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C9503B7B56B5E5404CE40526618D329 /* Pods-CSSTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2182F8DED168D1BB9EADD05148781A63 /* Pods-CSSTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTools_Example-dummy.m"; sourceTree = "<group>"; };
+		2938495655DA394ED31EF0B71A84C949 /* CSSTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CSSTools-dummy.m"; sourceTree = "<group>"; };
+		307B40EEBA9D67BC4E99492461D5FB9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B18BC64E059356BB5966C608D82BFF /* Pods-CSSTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		35D2EF212244DD302B025B83E2E7208B /* CSSTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSSTools-umbrella.h"; sourceTree = "<group>"; };
+		39D7A23E9E8E949C8DD23FADB175D2B5 /* Pods-CSSTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4FE2726AE2FD17839B12252443172B5F /* Pods-CSSTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CSSTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		51ACE32DBF45769735BFD0E50D120A45 /* Pods-CSSTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52E66A9B86B12A89F53781098BC04F05 /* Pods-CSSTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5FA8AB9587EC84B213395B4D16E26E02 /* Pods-CSSTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CSSTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		634AA9EFB873B5A764551A4984EC0C5C /* CSSTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CSSTools.framework; path = CSSTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		665D293A01B4230247E3032E3F4C4833 /* Pods-CSSTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		671A0040107AF32329B5233D95F4FE77 /* CSSTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CSSTools-prefix.pch"; sourceTree = "<group>"; };
+		723A7B7137496A0964BEAB0819BE10AD /* Pods-CSSTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTools_Example-resources.sh"; sourceTree = "<group>"; };
+		72CE0CEC47B67064DF2D8DFDF08779FD /* Pods-CSSTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CSSTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		79C8B25ABC806B535E1E58A5E6C72020 /* Pods-CSSTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CSSTools_Example.modulemap"; sourceTree = "<group>"; };
+		87F81D0EE7C3987DA7F4DBCC8866AE70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FED537DE6677ED11F6C10056AF75C9A /* CSSTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CSSTools.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950221DCF4D00024FB3E9E7E7F4572EF /* Pods-CSSTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		95557FEFB4F5C20B0631CEC2BC0F4C02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962C2D54EE53FD9A4926EE0C5623CC1C /* Pods_CSSTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CSSTools_Tests.framework; path = "Pods-CSSTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDB5B956DBD72E396C39B884931B0A9 /* Pods-CSSTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CSSTools_Tests.modulemap"; sourceTree = "<group>"; };
+		9E8E6898798180B666FFA00B8A4D7580 /* Pods-CSSTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CSSTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE37CC53E68D49F74809E8AEA1097D11 /* Pods-CSSTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CSSTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		DEC784C5CEB1D2270303BA18E0A7149E /* Pods-CSSTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CSSTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		ED78341FD66C6838A8BA281FB278372A /* CSSTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CSSTools.xcconfig; sourceTree = "<group>"; };
+		FFA21B9F91D3E2BDDE425070D028077B /* Pods_CSSTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CSSTools_Example.framework; path = "Pods-CSSTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C18FF1EABA5A5830530D9EF23A7E616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39BABBC452A51E749EB817FA3761E3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA29C5E36B1FE3C37ADC443AC586CD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053C2C14C1B5A756D2BAE125378DC0DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29F736AC5026F73266F209CD083A909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCF862A15441ADD7F07B2CAB8DFF260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0423AB2881350D2252D07B9ADA2BF191 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FED537DE6677ED11F6C10056AF75C9A /* CSSTools.modulemap */,
+				ED78341FD66C6838A8BA281FB278372A /* CSSTools.xcconfig */,
+				2938495655DA394ED31EF0B71A84C949 /* CSSTools-dummy.m */,
+				671A0040107AF32329B5233D95F4FE77 /* CSSTools-prefix.pch */,
+				35D2EF212244DD302B025B83E2E7208B /* CSSTools-umbrella.h */,
+				87F81D0EE7C3987DA7F4DBCC8866AE70 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CSSTools";
+			sourceTree = "<group>";
+		};
+		0BB954B9C3D58409BCD144BB106DA06D /* CSSTools */ = {
+			isa = PBXGroup;
+			children = (
+				D62EAFFB35FA8D7D657492F7170EFABE /* Classes */,
+			);
+			name = CSSTools;
+			path = CSSTools;
+			sourceTree = "<group>";
+		};
+		36794CB675CE2DF6F890442BFF76A4B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				397586E210E58199B84A44FA5042B1B6 /* CSSTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		397586E210E58199B84A44FA5042B1B6 /* CSSTools */ = {
+			isa = PBXGroup;
+			children = (
+				0BB954B9C3D58409BCD144BB106DA06D /* CSSTools */,
+				0423AB2881350D2252D07B9ADA2BF191 /* Support Files */,
+			);
+			name = CSSTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				36794CB675CE2DF6F890442BFF76A4B4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DBDF5430A5BA155858627E0DBF043038 /* Products */,
+				C1A4390F58D973BC75B3D9320372C194 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1694B5B17E88C337B1D420415C9FE1 /* Pods-CSSTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				95557FEFB4F5C20B0631CEC2BC0F4C02 /* Info.plist */,
+				79C8B25ABC806B535E1E58A5E6C72020 /* Pods-CSSTools_Example.modulemap */,
+				100C9EC7319125F2F325FF4F2798628B /* Pods-CSSTools_Example-acknowledgements.markdown */,
+				51ACE32DBF45769735BFD0E50D120A45 /* Pods-CSSTools_Example-acknowledgements.plist */,
+				2182F8DED168D1BB9EADD05148781A63 /* Pods-CSSTools_Example-dummy.m */,
+				950221DCF4D00024FB3E9E7E7F4572EF /* Pods-CSSTools_Example-frameworks.sh */,
+				723A7B7137496A0964BEAB0819BE10AD /* Pods-CSSTools_Example-resources.sh */,
+				31B18BC64E059356BB5966C608D82BFF /* Pods-CSSTools_Example-umbrella.h */,
+				1C9503B7B56B5E5404CE40526618D329 /* Pods-CSSTools_Example.debug.xcconfig */,
+				39D7A23E9E8E949C8DD23FADB175D2B5 /* Pods-CSSTools_Example.release.xcconfig */,
+			);
+			name = "Pods-CSSTools_Example";
+			path = "Target Support Files/Pods-CSSTools_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1A4390F58D973BC75B3D9320372C194 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F1694B5B17E88C337B1D420415C9FE1 /* Pods-CSSTools_Example */,
+				C22B45CEC059CDB7F8CE442A835F4771 /* Pods-CSSTools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C22B45CEC059CDB7F8CE442A835F4771 /* Pods-CSSTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				307B40EEBA9D67BC4E99492461D5FB9C /* Info.plist */,
+				9CDB5B956DBD72E396C39B884931B0A9 /* Pods-CSSTools_Tests.modulemap */,
+				9E8E6898798180B666FFA00B8A4D7580 /* Pods-CSSTools_Tests-acknowledgements.markdown */,
+				72CE0CEC47B67064DF2D8DFDF08779FD /* Pods-CSSTools_Tests-acknowledgements.plist */,
+				DEC784C5CEB1D2270303BA18E0A7149E /* Pods-CSSTools_Tests-dummy.m */,
+				665D293A01B4230247E3032E3F4C4833 /* Pods-CSSTools_Tests-frameworks.sh */,
+				CE37CC53E68D49F74809E8AEA1097D11 /* Pods-CSSTools_Tests-resources.sh */,
+				4FE2726AE2FD17839B12252443172B5F /* Pods-CSSTools_Tests-umbrella.h */,
+				5FA8AB9587EC84B213395B4D16E26E02 /* Pods-CSSTools_Tests.debug.xcconfig */,
+				52E66A9B86B12A89F53781098BC04F05 /* Pods-CSSTools_Tests.release.xcconfig */,
+			);
+			name = "Pods-CSSTools_Tests";
+			path = "Target Support Files/Pods-CSSTools_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D62EAFFB35FA8D7D657492F7170EFABE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				06FEF1E9B41627D2E8304B15888A841C /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DBDF5430A5BA155858627E0DBF043038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634AA9EFB873B5A764551A4984EC0C5C /* CSSTools.framework */,
+				FFA21B9F91D3E2BDDE425070D028077B /* Pods_CSSTools_Example.framework */,
+				962C2D54EE53FD9A4926EE0C5623CC1C /* Pods_CSSTools_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACB1A1E83F02F608C6A97765C58F185B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCD620CA6DF1B481FCE0D48606226F7 /* Pods-CSSTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF741D2631D9956A8E8C9FAF2D6BF185 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29460FBBD57A862BAA80A30C4BCE9BFA /* CSSTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36091FBA34BC928B523F49BF8322D49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E86A06922BF71B87FB69612AA25018 /* Pods-CSSTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27B6CF43202C4F1BF17E182EC3732B2D /* CSSTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F5450EE13ACAC790A8F721AC7D4B8AF /* Build configuration list for PBXNativeTarget "CSSTools" */;
+			buildPhases = (
+				000379007DD98BF863CCD03528D0FA90 /* Sources */,
+				8EA29C5E36B1FE3C37ADC443AC586CD2 /* Frameworks */,
+				CF741D2631D9956A8E8C9FAF2D6BF185 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSSTools;
+			productName = CSSTools;
+			productReference = 634AA9EFB873B5A764551A4984EC0C5C /* CSSTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74EB8C003511F25927875258148E635B /* Pods-CSSTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83FEDD403CE8D89EA02C68D1403748DE /* Build configuration list for PBXNativeTarget "Pods-CSSTools_Tests" */;
+			buildPhases = (
+				FBFC84669D76196C9C81F4219D59D680 /* Sources */,
+				6C18FF1EABA5A5830530D9EF23A7E616 /* Frameworks */,
+				ACB1A1E83F02F608C6A97765C58F185B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CSSTools_Tests";
+			productName = "Pods-CSSTools_Tests";
+			productReference = 962C2D54EE53FD9A4926EE0C5623CC1C /* Pods_CSSTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE3AD7FD9B232F5E30892C0DD4355EF6 /* Pods-CSSTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246A462076B7C612285ECDC0499EE988 /* Build configuration list for PBXNativeTarget "Pods-CSSTools_Example" */;
+			buildPhases = (
+				E5C26AEE3E1D2110721170E43542F354 /* Sources */,
+				C29F736AC5026F73266F209CD083A909 /* Frameworks */,
+				D36091FBA34BC928B523F49BF8322D49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8AC539480345952E26C09F52852FCFA /* PBXTargetDependency */,
+			);
+			name = "Pods-CSSTools_Example";
+			productName = "Pods-CSSTools_Example";
+			productReference = FFA21B9F91D3E2BDDE425070D028077B /* Pods_CSSTools_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DBDF5430A5BA155858627E0DBF043038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27B6CF43202C4F1BF17E182EC3732B2D /* CSSTools */,
+				CE3AD7FD9B232F5E30892C0DD4355EF6 /* Pods-CSSTools_Example */,
+				74EB8C003511F25927875258148E635B /* Pods-CSSTools_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000379007DD98BF863CCD03528D0FA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CDA2A66040903D3A8A4D65A9D64B51 /* CSSTools-dummy.m in Sources */,
+				9D8378E24A50B3ECF9225A666AAD8A8A /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C26AEE3E1D2110721170E43542F354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46507F9AC60C85A6F9D085BE6C58829 /* Pods-CSSTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFC84669D76196C9C81F4219D59D680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBC7D549E452575914F02402CA77406 /* Pods-CSSTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8AC539480345952E26C09F52852FCFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CSSTools;
+			target = 27B6CF43202C4F1BF17E182EC3732B2D /* CSSTools */;
+			targetProxy = 992EAC5418E59428886F5910A344189C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1783226EE5C38BFB3D49685CF9F39002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED78341FD66C6838A8BA281FB278372A /* CSSTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CSSTools/CSSTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSSTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSSTools/CSSTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CSSTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		564F1C0777D39CBAD26368CEE8824D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D7A23E9E8E949C8DD23FADB175D2B5 /* Pods-CSSTools_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTools_Example/Pods-CSSTools_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CSSTools_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B2D95CBABF71D84390A49D803D63795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E66A9B86B12A89F53781098BC04F05 /* Pods-CSSTools_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTools_Tests/Pods-CSSTools_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CSSTools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A2F079F79561402B27C8CECB40137D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED78341FD66C6838A8BA281FB278372A /* CSSTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CSSTools/CSSTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CSSTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CSSTools/CSSTools.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CSSTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2BD64BD8B68FC0F2E051C06F9D4BB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA8AB9587EC84B213395B4D16E26E02 /* Pods-CSSTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTools_Tests/Pods-CSSTools_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CSSTools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D98FE4690E23F447721E04483A62F16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9503B7B56B5E5404CE40526618D329 /* Pods-CSSTools_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CSSTools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CSSTools_Example/Pods-CSSTools_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CSSTools_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246A462076B7C612285ECDC0499EE988 /* Build configuration list for PBXNativeTarget "Pods-CSSTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98FE4690E23F447721E04483A62F16D /* Debug */,
+				564F1C0777D39CBAD26368CEE8824D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F5450EE13ACAC790A8F721AC7D4B8AF /* Build configuration list for PBXNativeTarget "CSSTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1783226EE5C38BFB3D49685CF9F39002 /* Debug */,
+				B4A2F079F79561402B27C8CECB40137D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83FEDD403CE8D89EA02C68D1403748DE /* Build configuration list for PBXNativeTarget "Pods-CSSTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD64BD8B68FC0F2E051C06F9D4BB7B /* Debug */,
+				5B2D95CBABF71D84390A49D803D63795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
